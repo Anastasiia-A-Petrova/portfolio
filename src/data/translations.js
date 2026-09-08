@@ -10,7 +10,7 @@ export const translations = {
     hero: {
       eyebrow: 'DATA GAZING',
       titleStart: 'Seeing patterns.',
-      titleAccent: 'Looking beyond the obvious.',
+      titleAccent: 'Building useful systems.',
       description:
         'I work with data, APIs and automation to uncover patterns, build reliable workflows and turn raw information into useful tools.',
       projects: 'View Projects',
@@ -18,7 +18,7 @@ export const translations = {
     },
 
     sections: {
-      projectsEyebrow: 'WHAT I SEE',
+      projectsEyebrow: 'WHAT I EXPLORE',
       projectsTitle: 'Projects',
 
       aboutEyebrow: 'HINDSIGHT / FORESIGHT',
@@ -155,7 +155,7 @@ export const translations = {
           items: [
             'AI APIs',
             'Claude',
-            'Python',
+            'Prompt Engineering',
           ],
         },
       ],
@@ -190,11 +190,11 @@ export const translations = {
     },
 
     sections: {
-      projectsEyebrow: 'ЧТО Я ВИЖУ',
+      projectsEyebrow: 'ЧТО Я ИССЛЕДУЮ',
       projectsTitle: 'Проекты',
 
       aboutEyebrow: 'HINDSIGHT / FORESIGHT',
-      aboutTitle: 'Смотрю назад. Вижу дальше.',
+      aboutTitle: 'Смотрю назад. Вижу наперёд.',
 
       aboutIntro:
         'Я работаю между hindsight и foresight: использую данные, чтобы понять, что произошло, найти закономерности и создавать системы, которые помогают принимать более взвешенные решения о том, что делать дальше.',
@@ -203,12 +203,12 @@ export const translations = {
       hindsightText:
         'Опыт даёт контекст. Я анализирую то, что уже произошло, ищу закономерности и превращаю наблюдения в нечто полезное.',
 
-      foresightTitle: 'Понять, что дальше.',
+      foresightTitle: 'Понять, что делать дальше.',
       foresightText:
         'Задача не только в том, чтобы объяснить прошлое, но и в том, чтобы создавать инструменты и процессы, которые помогают использовать информацию для будущих решений.',
 
       hindsightColumnTitle: 'Откуда я пришла.',
-      foresightColumnTitle: 'Куда я смотрю.',
+      foresightColumnTitle: 'Куда я двигаюсь.',
 
       timeline: [
         {
@@ -226,7 +226,7 @@ export const translations = {
         {
           period: 'Сен 2024 — Сен 2025',
           title: 'Freelance',
-          role: 'Data Analyst · Самозанятость',
+          role: 'Аналитик данных · Самозанятость',
           description:
             'Самостоятельная работа с аналитическими задачами и data-driven проектами.',
         },
@@ -240,7 +240,7 @@ export const translations = {
         {
           period: 'Сен 2025 — Апр 2026',
           title: 'Skyeng',
-          role: 'English Tutor · Удалённо',
+          role: 'Преподаватель английского языка · Удалённо',
           description:
             'Проводила занятия для студентов разного уровня и адаптировала материалы под индивидуальные потребности.',
         },
@@ -327,19 +327,19 @@ export const translations = {
           items: [
             'AI APIs',
             'Claude',
-            'Python',
+            'Prompt Engineering',
           ],
         },
       ],
 
-      contactEyebrow: 'ПРОДОЛЖАЕМ СМОТРЕТЬ',
+      contactEyebrow: 'РАЗРАБАТЫВАЕМ ВМЕСТЕ',
       contactTitle: 'Есть что исследовать?',
       contactText:
-        'Если вы работаете над чем-то связанным с данными, автоматизацией или AI — буду рада обсудить.',
+        'Есть задача, связанная с данными, автоматизацией или AI? Буду рада разобраться вместе.',
       contactButton: 'Связаться',
     },
 
     footer: 'Специалист по данным и автоматизации',
-    footerLink: 'Продолжаем наблюдение',
+    footerLink: 'Вверх',
   },
 }

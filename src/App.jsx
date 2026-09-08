@@ -111,9 +111,33 @@ function App() {
             className="theme-switch"
             onClick={toggleTheme}
             aria-label="Change theme"
+            type="button"
           >
-            {theme === 'dark' ? '☼' : '☾'}
+            {theme === 'dark' ? (
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <circle cx="12" cy="12" r="4" />
+                <path d="M12 2v2" />
+                <path d="M12 20v2" />
+                <path d="m4.93 4.93 1.42 1.42" />
+                <path d="m17.65 17.65 1.42 1.42" />
+                <path d="M2 12h2" />
+                <path d="M20 12h2" />
+                <path d="m4.93 19.07 1.42-1.42" />
+                <path d="m17.65 6.35 1.42-1.42" />
+              </svg>
+            ) : (
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.8 6.8 0 0 0 9.8 9.8Z" />
+              </svg>
+            )}
           </button>
+
         </div>
       </header>
 

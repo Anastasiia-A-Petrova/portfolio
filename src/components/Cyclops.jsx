@@ -18,7 +18,7 @@ function Cyclops({ variant = 'floating' }) {
     }
 
     return {
-      x: -20,
+      x: -11,
       y: window.innerHeight / 2 - 120,
     }
   })

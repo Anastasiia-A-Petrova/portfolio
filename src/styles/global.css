@@ -209,6 +209,31 @@ button {
   background: var(--surface);
 }
 
+.theme-switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-switch svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform 0.2s ease;
+}
+
+.theme-switch:hover svg {
+  transform: rotate(8deg);
+}
+
+.theme-switch:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+}
 
 /* =========================
    HERO
@@ -325,17 +350,17 @@ button {
 /* SECONDARY BUTTON */
 
 .button-secondary {
-  border: 1px solid var(--border);
+  border: 1px solid var(--blue);
 
-  color: var(--text);
+  color: #ffffff;
 
-  background: transparent;
+  background: var(--blue);
 }
 
 .button-secondary:hover {
-  background: var(--surface);
+  border-color: var(--blue-hover);
 
-  border-color: var(--border-hover);
+  background: var(--blue-hover);
 }
 
 
@@ -1425,6 +1450,10 @@ button {
 
 
 @media (max-width: 700px) {
+  .floating-cyclops {
+    display: none;
+  }
+
   .site {
     padding: 0 20px;
   }
@@ -1510,7 +1539,7 @@ button {
   }
 
   .project-category-button {
-    font-size: 12px;
+    font-size: 15px;
 
     letter-spacing: 1px;
   }
@@ -1524,20 +1553,6 @@ button {
 
   .project-card {
     min-height: auto;
-
-    padding: 20px;
-  }
-
-  .project-card-content {
-    padding-top: 34px;
-  }
-
-  .project-card h3 {
-    font-size: clamp(34px, 12vw, 52px);
-  }
-
-  .project-description {
-    font-size: 15px;
   }
 
   .project-overview {
@@ -1560,76 +1575,62 @@ button {
     margin-top: 32px;
   }
 
+  .project-card-preview {
+    height: 230px;
+  }
+
+  .project-card-preview-stage {
+    padding: 12px;
+  }
+
+  .project-carousel-button {
+    width: 34px;
+    height: 34px;
+  }
+
+  .project-carousel-button-prev {
+    left: 10px;
+  }
+
+  .project-carousel-button-next {
+    right: 10px;
+  }
+
+  .project-carousel-dots {
+    bottom: 12px;
+  }
+
+  .project-carousel-counter {
+    right: 12px;
+    bottom: 13px;
+  }
+
+  .project-card-top {
+    padding: 20px 20px 0;
+  }
+
+  .project-card-content {
+    padding: 16px 20px 24px;
+  }
+
+  .project-card-content h3 {
+    font-size: 25px;
+    letter-spacing: -0.8px;
+  }
+
+  .project-description {
+    font-size: 14px;
+  }
+
+  .project-metric {
+    padding: 13px 15px;
+  }
+
   .project-card-footer {
     margin-top: 28px;
+    padding: 0 20px 20px;
   }
 
-.project-card-preview {
-  height: 230px;
-}
-
-.project-card-preview-stage {
-  padding: 12px;
-}
-
-.project-carousel-button {
-  width: 34px;
-  height: 34px;
-}
-
-.project-carousel-button-prev {
-  left: 10px;
-}
-
-.project-carousel-button-next {
-  right: 10px;
-}
-
-.project-carousel-dots {
-  bottom: 12px;
-}
-
-.project-carousel-counter {
-  right: 12px;
-  bottom: 13px;
-}
-
-.project-card-top {
-  padding: 20px 20px 0;
-}
-
-.project-card-content {
-  padding: 16px 20px 24px;
-}
-
-.project-card-content h3 {
-  font-size: 25px;
-  letter-spacing: -0.8px;
-}
-
-.project-description {
-  font-size: 14px;
-}
-
-.project-metrics {
-  grid-template-columns: 1fr;
-}
-
-.project-metric {
-  padding: 13px 15px;
-}
-
-.project-card-footer {
-  padding: 0 20px 20px;
-}
-
-  /* FOOTER */
-
-  .footer {
-    flex-direction: column;
-
-    gap: 8px;
-  }
 }
 
 
