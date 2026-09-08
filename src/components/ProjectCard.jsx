@@ -50,7 +50,7 @@ function ProjectCard({ project, language }) {
           <div className="project-card-preview-stage">
             <img
               key={previews[activePreview]}
-              src={previews[activePreview]}
+              src={`${import.meta.env.BASE_URL}${previews[activePreview]}`}
               alt={`${project.title[language]} — ${activePreview + 1}`}
               className="project-card-preview-image"
             />

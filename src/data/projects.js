@@ -12,10 +12,10 @@ export const projectCategories = [
       year: '2026',
 
       previews: [
-        '/projects/ga4-ecommerce1.png',
-        '/projects/ga4-ecommerce2.png',
-        '/projects/ga4-ecommerce3.png',
-        '/projects/ga4-ecommerce4.png',
+        'projects/ga4-ecommerce1.png',
+        'projects/ga4-ecommerce2.png',
+        'projects/ga4-ecommerce3.png',
+        'projects/ga4-ecommerce4.png',
       ],
 
       title: {
@@ -102,9 +102,9 @@ export const projectCategories = [
       year: '2026',
 
       previews: [
-        '/projects/steam-gacha-monitor1.png',
-        '/projects/steam-gacha-monitor2.png',
-        '/projects/steam-gacha-monitor3.png',
+        'projects/steam-gacha-monitor1.png',
+        'projects/steam-gacha-monitor2.png',
+        'projects/steam-gacha-monitor3.png',
       ],
 
       title: {
@@ -197,9 +197,9 @@ export const projectCategories = [
       year: '2026',
 
       previews: [
-        '/projects/hh-job-bot1.png',
-        '/projects/hh-job-bot2.png',
-        '/projects/hh-job-bot3.png',
+        'projects/hh-job-bot1.png',
+        'projects/hh-job-bot2.png',
+        'projects/hh-job-bot3.png',
       ],
 
       title: {
@@ -286,11 +286,11 @@ export const projectCategories = [
       year: '2026',
 
       previews: [
-        '/projects/telegram-channel-analysis1.png',
-        '/projects/telegram-channel-analysis2.png',
-        '/projects/telegram-channel-analysis3.png',
-        '/projects/telegram-channel-analysis4.png',
-        '/projects/telegram-channel-analysis5.png',
+        'projects/telegram-channel-analysis1.png',
+        'projects/telegram-channel-analysis2.png',
+        'projects/telegram-channel-analysis3.png',
+        'projects/telegram-channel-analysis4.png',
+        'projects/telegram-channel-analysis5.png',
       ],
 
       title: {
@@ -377,9 +377,9 @@ export const projectCategories = [
       year: '2026',
 
       previews: [
-        '/projects/youtube-analytics1.png',
-        '/projects/youtube-analytics2.png',
-        '/projects/youtube-analytics3.png',
+        'projects/youtube-analytics1.png',
+        'projects/youtube-analytics2.png',
+        'projects/youtube-analytics3.png',
       ],
 
       title: {
