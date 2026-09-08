@@ -1,16 +1,130 @@
-# React + Vite
+# Anastasiia Petrova — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Personal portfolio website showcasing projects in **data analytics, automation, AI and programming**.
 
-Currently, two official plugins are available:
+The portfolio is built around the idea of looking at data, finding patterns, and building systems that help turn information into better decisions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✦ What You'll Find Here
 
-## React Compiler
+* Data analytics projects
+* Automation workflows
+* Telegram bots and AI tools
+* API integrations
+* Interactive project previews
+* Bilingual interface (English / Russian)
+* Light and dark themes
+* Responsive design
+* Custom interactive Cyclops visual identity
+* Constellation-inspired visual system
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
 
-## Expanding the Oxlint configuration
+* React
+* JavaScript
+* Vite
+* CSS
+* SVG
+* Oxlint
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 📁 Project Structure
+
+```text
+portfolio/
+├── public/
+│   ├── projects/
+│   ├── cyclops.svg
+│   ├── favicon.svg
+│   └── icons.svg
+│
+├── src/
+│   ├── components/
+│   │   ├── Constellations.jsx
+│   │   ├── Cyclops.jsx
+│   │   └── ProjectCard.jsx
+│   │
+│   ├── data/
+│   │   ├── projects.js
+│   │   └── translations.js
+│   │
+│   ├── styles/
+│   │   ├── cyclops.css
+│   │   └── global.css
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── .gitignore
+├── .oxlintrc.json
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
+```
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone <repository-url>
+cd portfolio
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```text
+http://localhost:5173
+```
+
+## 📦 Production Build
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## 👁 Concept
+
+The visual identity of the portfolio is built around **observation and perception**.
+
+The **Cyclops** represents a focused gaze — looking closely at information, finding patterns, and connecting seemingly unrelated signals.
+
+The **constellation system** extends the same idea: individual data points become meaningful when viewed together.
+
+The portfolio itself follows the same direction:
+
+> **HINDSIGHT** — understanding what happened.
+> **FORESIGHT** — building systems that help see what comes next.
+
+## 🌐 Languages
+
+The portfolio is available in:
+
+* English
+* Russian
+
+## 📬 Contact
+
+**Anastasiia Petrova**
+
+*Data & Automation Specialist*
