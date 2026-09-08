@@ -83,7 +83,7 @@ function App() {
   return (
     <div className="site" id="top">
       <header className="navbar">
-        <a href="/" className="logo" aria-label="Home">
+        <a href="#top" className="logo" aria-label="Home">
           <Cyclops variant="logo" />
         </a>
 
@@ -434,7 +434,7 @@ function App() {
 
             <div className="contact-actions">
               <a
-                href="anastasiiapetrovam1@gmail.com"
+                href="mailto:anastasiiapetrovam1@gmail.com"
                 className="button button-primary"
               >
                 {t.sections.contactButton}
@@ -447,6 +447,24 @@ function App() {
                 className="button button-secondary"
               >
                 GitHub ↗
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/anastasiia-a-petrova"
+                target="_blank"
+                rel="noreferrer"
+                className="button button-secondary"
+              >
+                LinkedIn ↗
+              </a>
+
+              <a
+                href="https://spb.hh.ru/resume/9a4a88cbff10f025ba0039ed1f504255545872"
+                target="_blank"
+                rel="noreferrer"
+                className="button button-secondary"
+              >
+                hh.ru ↗
               </a>
             </div>
           </div>
